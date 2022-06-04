@@ -287,7 +287,7 @@ where
 
     let parts = (0..G::Scalar::NUM_BITS)
         .into_iter()
-        .step_by(c as usize)
+        .step_by(chhh as usize)
         .enumerate()
         .map(|(chunk, _)| this(bases.clone(), density_map.clone(), exponents.clone(), chunk))
         .collect::<Vec<Result<_, _>>>();
